@@ -20,7 +20,7 @@ __example:__
             popShow: 10, // optional, if not using, the input will be taken from global ('options') popShow value
         },
         {
-            content: '<i>Your</i> next <b>whanted</b> <snall>text</small>'
+            content: '<i>Your</i> next <b>whanted</b> <small>text</small>'
         }
         ...
     ];
