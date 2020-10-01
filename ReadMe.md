@@ -15,12 +15,12 @@ __example:__
     const list = [
         {
             image: 'link_to_img', // optional
-            content: 'your whanted text you can use html tags', // required
+            content: 'your wanted text you can use html tags', // required
             popAfter: 5, // optional, if not using, the input will be taken from global ('options') popAfter value
             popShow: 10, // optional, if not using, the input will be taken from global ('options') popShow value
         },
         {
-            content: '<i>Your</i> next <b>whanted</b> <small>text</small>'
+            content: '<i>Your</i> next <b>wanted</b> <small>text</small>'
         }
         ...
     ];
