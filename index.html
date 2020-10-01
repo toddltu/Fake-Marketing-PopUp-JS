@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page</title>
+    <link rel="stylesheet" href="./assets/css/style.min.css">
+</head>
+<body>
+    <footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+        <script src="./assets/js/FMarketPupUp.min.js"></script>
+        <script>
+            const list = [
+                {
+                    image: 'img/img.jpg', // image
+                    content: 'Cras condimentum purus nec lobortis tincidunt. Sed feugiat.<small>Donec tempus a</smnall>', // content - reqired
+                },
+                {
+                    image: 'img/img.jpg',
+                    content: 'Quisque sed magna quam. Vivamus.<small>Etiam bibendum enim</smnall>',  
+                },
+                {
+                    image: 'img/img.jpg',
+                    content: 'Vestibulum id dolor et diam sagittis.<small>Integer ligula arcu, pulvinar</smnall>',  
+                },
+            ];
+            const popy = new FMarketPopUp({}, list);
+            popy.start();
+        </script>
+    </footer>
+</body>
+</html>
