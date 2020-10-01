@@ -1,6 +1,6 @@
 # Simple Left Bottom Corner Fake PopUp
 
-Script reqires **JQuery** framework
+Script requires **JQuery** framework
 
 __example:__
 
